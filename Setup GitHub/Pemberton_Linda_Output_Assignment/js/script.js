@@ -25,12 +25,18 @@ console.log ("Their ages vary:");  //print comment to list children's ages vary
 console.log (childrenAges);  //print listing of children's ages
 
 
+console.log ("My middle child\'s age is:")// console log to explain use of middle array
+console.log (childrenAges[2]);//choose middle age child in array
+
+
+
+
 console.log ("I also have several grandchildren:"); //print comment to explain number variable of total number of
     //grandchildren
 console.log (numberGrandchildren);  //print the number of grandchildren to console
 
 
-var happyPhrase = "I am happily married is:"; // variable phrase
+var happyPhrase = "I am happily married is:"; // string variable phrase
 console.log (happyPhrase); //print happyPhrase
 console.log (isMarried);  //print boolean answer
 
