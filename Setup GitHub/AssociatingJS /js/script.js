@@ -2,13 +2,12 @@
 
 //Linda Pemberton
 //JavaScript
-//Console.log practice video
+//Defining Variables practice video
 
-var yearBorn = 1965
-/*
-console.log ("Hello World"); //Check string variable
-console.log (yearBorn);
-*/
+var age;  //declaration
+age = 49; //defining the variable = number variable
+//storage container = value
 
-alert ("Hello World!");// prints in box that pops up.
-alert ("yearBorn");   // this alert with quotes will make this type as a string rather than number.
+var yearOfBirth = 1965;  //declaring and defining on the same line.
+
+//declare before you use your variable.
