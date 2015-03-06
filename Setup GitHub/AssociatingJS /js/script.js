@@ -2,12 +2,19 @@
 
 //Linda Pemberton
 //JavaScript
-//Defining Variables practice video
+//String and Boolean Variables practice video
 
 var age;  //declaration
 age = 49; //defining the variable = number variable
-//storage container = value
 
-var yearOfBirth = 1965;  //declaring and defining on the same line.
+var isStudent = true;  //set boolean variable
 
-//declare before you use your variable.
+var firstName = "Linda"; //set string variable (literal string of characters)
+
+//var phrase = "I don\'t know"; //use \ to tell computer to use ' as apostrophe
+// the ' can be used as a quote and you must tell computer to use literally
+
+var phrase = 'I don\'t know. \n You\'ll have to speak to the professor.'
+//adding the \n tells this to drop to the next line.
+
+console.log (phrase);
