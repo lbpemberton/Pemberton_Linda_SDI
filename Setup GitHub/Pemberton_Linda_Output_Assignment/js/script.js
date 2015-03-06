@@ -8,11 +8,13 @@ March 5, 2015
 Creating Variables and Output
  */
 
-alert("This is about a proud mother and grandmother!!");//alert to show need for variables
+alert("This is about a proud wife, mother, and grandmother!!");//alert to show need for variables
 
 
 var numberChildren = 5; //number variable
 var numberGrandchildren = 4; //number variable
+
+var isMarried = true; //boolean variable
 
 
 console.log ("I have numerous children:"); //print comment to explain number variable
@@ -28,6 +30,9 @@ console.log ("I also have several grandchildren:"); //print comment to explain n
 console.log (numberGrandchildren);  //print the number of grandchildren to console
 
 
+var happyPhrase = "I am happily married is:"; // variable phrase
+console.log (happyPhrase); //print happyPhrase
+console.log (isMarried);  //print boolean answer
 
 
 
