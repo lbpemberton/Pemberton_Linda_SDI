@@ -2,27 +2,16 @@
 
 //Linda Pemberton
 //JavaScript
-//Expressions - PEMDAS - The Order of Operations
+//Expressions - Expressions with Arrays
 
-var quiz1 = 87;     //variable is quiz score
-var quiz2 = 100;
-var quiz3 = 60;
-var quiz4 = 80;
+var orangeBins = [234, 567, 883]; //listing of amounts in each bin
 
-//the average is the sum of the items divided by the number of items
+var total = orangeBins[0] + orangeBins[1] + orangeBins[2];// adding amounts in listed bins
 
-var average = (quiz1 + quiz2 + quiz3 + quiz4)/4;  //addition must be placed in
-                //parenthesis because division comes first.
+console.log(total );  //total of addition listed above.
 
-console.log(average);   //print the average calculated
 
-//To calculate area of rectangle length x2 + width x2
 
-var length = 7;
-var width = 6;
-var perimeter = length * 2 + width * 2;  //multiplication is done first so parenthesis aren't needed.
-
-console.log(perimeter);
 
 
 
