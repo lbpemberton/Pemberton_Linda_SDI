@@ -2,16 +2,15 @@
 
 //Linda Pemberton
 //JavaScript
-//Expressions - Arithmetic Operators
+//Expressions - Modulo Operator
 
-//are of the triangle is half of the width times the height
 
-var width  = 4;     //add width of triangle
-var height = 5;     //add height of triangle
+var remainder = 32 / 10;    //Divide 32 by 10
 
-var area = width/2 * height;  //calculate area (width x height)
+console.log(remainder);     //print remainder of 32 divided by 10
 
-console.log(area);      //print total area
+
+
 
 
 
