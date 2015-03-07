@@ -2,14 +2,21 @@
 
 //Linda Pemberton
 //JavaScript
-//Example Expressions - Age Example
+//Expressions - Arithmetic Operators
+
+//are of the triangle is half of the width times the height
+
+var width = 4;
+var height = 5;
+
+var area = width * height;
+
+console.log(area);
 
 
 
-var yearBorn = 1965;    //add variable of year born
 
-var age = 2015 - yearBorn - 1;  // calculate age by current year and deduct year born
-                                // subtract 1 year when birthday hasn't passed.
 
-console.log(age);
+
+
 
