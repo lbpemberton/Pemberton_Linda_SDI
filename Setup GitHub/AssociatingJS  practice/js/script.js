@@ -2,26 +2,21 @@
 //Linda Pemberton
 //SDI 02 Java Practice
 //March 5, 2015
-
+//ch2_examp8.htm.
 
 //alert("This is in the js file");  tested js connection
 
-var string1 = "Hello";      //assign variable
-var string2 = "Goodbye";    //assign second variable
+var myArray = new Array();
 
+myArray [0] = "Bob";
+myArray [1] = "Pete";
+myArray [2] = "Paul";
 
-alert(string1);             //push alert box showing "Hello"
-alert(string2);             //push alert box showing "Goodbye"
+document.write ("myArray[0] = " + myArray[0] +"<BR>");
 
-string2 = string1;          //change string2 to "Hello"
+document.write ("myArray[2] = " + myArray[2] +"<BR>");
 
-alert (string1);            //push alert box showing "Hello"
-alert(string2);             //push alert box to = new string of "Hello"
+document.write ("myArray[1] = " + myArray[1] +"<BR>");
 
-string1 = "Now for something different.";   //Change string1 to quote
-
-alert(string1);             //push alert to = new quote
-alert(string2);             //push alert to equal the above change to string2 = string1 "Hello"
-
-
-
+myArray [1] = "Mike";
+document.write("myArray[1] changed to " + myArray[1]);
