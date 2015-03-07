@@ -2,13 +2,13 @@
 
 //Linda Pemberton
 //JavaScript
-//Expressions
+//Example Expressions - Age Example
 
 
 
-var a = 2;  //sets up out variable a and defines it with 2
-var b;      //b isn't storing any information
+var yearBorn = 1965;
 
-a = a + 3;      //add 3 to a
+var age = 2015 - yearBorn;
 
-console.log(b); //will not print since b has nothing stored
+console.log(age);
+
