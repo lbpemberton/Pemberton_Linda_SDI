@@ -2,14 +2,13 @@
 
 //Linda Pemberton
 //JavaScript
-//Arrays practice video
+//Expressions
 
-//Meant to hold collections
 
-var muppetNames = ["Kermit", "Miss Piggy", "Gonzo", "Rizzo"]; //Each item in this array has an index number
 
-//console.log (muppetNames); //Gives complete array of names
+var a = 2;  //sets up out variable a and defines it with 2
+var b;      //b isn't storing any information
 
-console.log(muppetNames[1]); // gives only 1 item in array with array starting at 0 to 3
-//0 = Kermit
-//1 = Miss Piggy and etc.
+a = a + 3;      //add 3 to a
+
+console.log(b); //will not print since b has nothing stored
