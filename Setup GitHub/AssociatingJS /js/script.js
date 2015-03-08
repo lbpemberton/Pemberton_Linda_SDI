@@ -6,11 +6,13 @@
 
 //Combining Strings
 
-var firstName = "Linda";
-var lastName = "Pemberton";
-var fullName = firstName + lastName;
+var firstName = "Linda";        //Establish variable to be used.
 
-console.log(fullName);
+var lastName = "Pemberton";    //Establish variable to be used.
+
+var fullName = firstName + " " + lastName; //Setup concatenating string and space between variables.
+
+console.log(fullName); //Print concatenation to console. 
 
 
 
