@@ -2,16 +2,19 @@
 
 //Linda Pemberton
 //JavaScript
-//Expressions - Casting
+//Expressions - Assignment Operators
 
-var areaCode = 407;     //Variable of three digit area code.
-var firstPart = 203;    //Variable of three digit part of phone number.
-var secPart = 4529;     //Variable of last four digits of phone number.
-// (407) 203-4529
+//Calculating with AND assigning all on one line with these handy programming
+//shortcut operators.
 
-var phoneNo = "(" + String(areaCode) + ")" + String(firstPart) + "-" + String(secPart);
-// Correct format to list string variables in telephone format.
-console.log(phoneNo);  //Print phoneNo in correct format.
+var a = 3;  //Assignment operator is =.
+a = a + 4;   //Assignment operator is =.
+
+//Note storage container is always on the left.
+
+console.log(a);
+
+
 
 
 
