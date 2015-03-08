@@ -2,13 +2,17 @@
 
 //Linda Pemberton
 //JavaScript
-//Expressions - Expressions with Arrays
+//Expressions - Concatenating Strings
 
-var orangeBins = [234, 567, 883]; //listing of amounts in each bin
+//Combining Strings
 
-var total = orangeBins[0] + orangeBins[1] + orangeBins[2];// adding amounts in listed bins
+var firstName = "Linda";
+var lastName = "Pemberton";
+var fullName = firstName + lastName;
 
-console.log(total );  //total of addition listed above.
+console.log(fullName);
+
+
 
 
 
