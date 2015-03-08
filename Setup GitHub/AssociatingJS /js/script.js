@@ -2,17 +2,14 @@
 
 //Linda Pemberton
 //JavaScript
-//Expressions - Concatenating Strings
+//Expressions - Casting
 
-//Combining Strings
+var stringVar = "6";                //Add string variable.
+var result = 7 + Number(stringVar); //Convert string variable to number so they will add.
 
-var a = "6";        //Establish string variable to be used.
+console.log(result);  //print result of addition of numbers.
 
-var b = "7";    //Establish string variable to be used.
 
-var result = a + b; //Setup concatenating string variables.
-
-console.log(result); //Print concatenation to console. 
 
 
 
