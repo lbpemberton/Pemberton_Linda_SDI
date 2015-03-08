@@ -4,10 +4,15 @@
 //JavaScript
 //Expressions - Casting
 
-var stringVar = "6";                //Add string variable.
-var result = 7 + Number(stringVar); //Convert string variable to number so they will add.
+var areaCode = 407;     //Variable of three digit area code.
+var firstPart = 203;    //Variable of three digit part of phone number.
+var secPart = 4529;     //Variable of last four digits of phone number.
+// (407) 203-4529
 
-console.log(result);  //print result of addition of numbers.
+var phoneNo = "(" + String(areaCode) + ")" + String(firstPart) + "-" + String(secPart);
+// Correct format to list string variables in telephone format.
+console.log(phoneNo);  //Print phoneNo in correct format.
+
 
 
 
