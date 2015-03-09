@@ -4,9 +4,17 @@
 //JavaScript
 //Prompt and Alert
 
-var yearBorn = prompt("Enter your year of birth:");  //Prompts user for variable information.
+//Using with an expression to calculate area of triangle.
 
-console.log (yearBorn);  //Will print variable yearBorn input.
+var width = prompt("We are calculating the area of rectangle.\nPlease enter the width.");
+//Prompt to explain what wer are doing and next line to request the width being used.  \n to set a new line.  No spaces or the spaces will indent the second line.
+var height = prompt("Please enter the height.");
+
+var area = width * height; //calculates based on prompted information.
+
+console.log(area);  //prints outcome to console.
+
+
 
 
 
