@@ -8,7 +8,7 @@
 //shortcut operators.
 
 var a = 3;  //Assignment operator is =.
-a *= 4;     //Assignment is a = a * 4
+a /= 4;     //Assignment is a = a / 4
 
 //Note storage container is always on the left.
 
