@@ -24,15 +24,17 @@ console.log ("Sparky is " + actualAge + " human years old which is " + dogAge + 
 
 var slicesPerPizza  = 8;    //Number variable of slices per pizza.
 var partyPeople     = 24;   //Number variable of  people at party.
-var piesOrdered     = 12;    //Number variable of pizza pies ordered.
+var piesOrdered     = 11;    //Number variable of pizza pies ordered.
 
-var slicesEaten     = slicesPerPizza * piesOrdered / partyPeople; //Number variable equation  to determine
+var slicesAvailable = slicesPerPizza * piesOrdered ; //Number variable equation to determine
                             //total slices eaten.
-
+var slicesEaten     = slicesAvailable / partyPeople;
 
 //Print total of slices eaten per person.
 console.log ("Each person ate " + (slicesEaten) + " slices of pizza at the party.");
 
+
+//Add Expression Problem - Slice of Pie
 
 
 
