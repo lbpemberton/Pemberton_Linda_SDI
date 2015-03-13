@@ -1,4 +1,4 @@
-alert("This is in the js file");
+//alert("This is in the js file");
 
 /**
  Linda Pemberton
@@ -38,16 +38,17 @@ countyLicense       = prompt("What county do you foster in? \nYou do not need to
 //Establish output
 
 
-//Divide ages of children by number fostered to get average.
-console.log("I love to " + "foster"  + " in " + countyLicense + " County.");
+//Print in alert box:  reason for worksheet and which County licensed in.
+alert("You love to " + "foster"  + " in " + countyLicense + " County.");
 
 
 //Print youngest age to highest and print average age fostered.
 console.log("I fostered a variety of ages from " + ages[1] + " to "+ ages[8] + ".  The list of ages were: " + ages +
 ".  The average age of children fostered was " + totalChildren + ".");
 
+//Print prompted youngest child's name and oldest child's name.
 console.log("My youngest foster child's name was " + youngestChild + " and the oldest child's name was " +
-oldestChild + ".");  //Print prompted youngest name of child and oldest child's name.
+oldestChild + ".");
 
 
 
