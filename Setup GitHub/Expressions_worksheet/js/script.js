@@ -20,6 +20,10 @@ console.log ("Sparky is " + actualAge + " human years old which is " + dogAge + 
 //Print result of Sparky's actual age and what that calculates to in dog years.
 
 
+
+
+
+
 //Add Expression Problem - Slice of Pie Part I PEMDAS
 
 const slicesPerPizza  = 8;    //Number variable of slices per pizza.
@@ -34,6 +38,9 @@ var slicesEaten     = slicesAvailable / partyPeople;
 console.log ("Each person ate " + slicesEaten + " slices of pizza at the party.");
 
 
+
+
+
 //Add Expression Problem - Slice of Pie II
 
 var sparkysPortion = slicesAvailable % partyPeople;  //Number variable equation to determine remainder.
@@ -41,6 +48,29 @@ var sparkysPortion = slicesAvailable % partyPeople;  //Number variable equation 
 
 //Print total of whole slices left over after calculating how many whole slices could be given to people.
 console.log ("Sparky got "  + sparkysPortion + " slices of pizza.");
+
+
+
+
+
+//Add Expression Problem - Average Shopping Bill
+
+var groceryBills =[92, 112, 104, 83 ,96]; //Array of 5 weekly grocery bills.
+
+//console.log (groceryBills)
+
+var totalSpent = groceryBills[0] + groceryBills[1] + groceryBills[2] + groceryBills[3] + groceryBills[4];
+
+var average = totalSpent / 5;
+
+
+
+
+console.log ("You have spent a total of " + totalSpent + " on groceries over 5 weeks.  That is an average of " + average + " per week.");
+
+
+
+
 
 
 
