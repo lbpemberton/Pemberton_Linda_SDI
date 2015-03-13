@@ -73,6 +73,25 @@ console.log ("You have spent a total of " + totalSpent + " on groceries over 5 w
 
 //Add Expression Problem - Discounts
 
+var purchase    = "dryer";       // Name variable of item to be purchased.
+var dryer       = 800;           // Number variable for Original price of dryer.
+
+var tax       = .075;          //tax percentage
+
+const salePercent = .20;        //Set sale percentage.
+
+var discount    = dryer * salePercent ;//Calculate number percentage at 20% of dryer cost for discount.
+var salePrice   = dryer - discount;     //Subtract discount from cost of dryer.
+tax         *= salePrice;       // tax new sale price.
+var totalDue    = salePrice + tax;  //Sale Price plus tax.
+
+
+
+//Print above variables in sentence.
+
+console.log ("Your " + purchase + " was originally $" + dryer + ", but after a  " + salePercent + "% discount, it is \n"
++ " now $" + salePrice + " without tax, and $" + totalDue + " with tax.");
+
 
 
 
