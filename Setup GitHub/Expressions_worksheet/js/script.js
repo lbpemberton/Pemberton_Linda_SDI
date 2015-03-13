@@ -57,18 +57,21 @@ console.log ("Sparky got "  + sparkysPortion + " slices of pizza.");
 
 var groceryBills =[92, 112, 104, 83 ,96]; //Array of 5 weekly grocery bills.
 
-//console.log (groceryBills)
-
-var totalSpent = groceryBills[0] + groceryBills[1] + groceryBills[2] + groceryBills[3] + groceryBills[4];
-
-var average = totalSpent / 5;
 
 
+var totalSpent = groceryBills[0] + groceryBills[1] + groceryBills[2] + groceryBills[3] + groceryBills[4]; //Add array of numbers
 
+var average = totalSpent / 5;  // Divide array by 5
+
+
+//Print total of array and average of numbers within the array.
 
 console.log ("You have spent a total of " + totalSpent + " on groceries over 5 weeks.  That is an average of " + average + " per week.");
 
 
+
+
+//Add Expression Problem - Discounts
 
 
 
