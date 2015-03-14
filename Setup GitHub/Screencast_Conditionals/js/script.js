@@ -67,7 +67,7 @@ if (sunny) {            //If sunny the following will happen.
 }
 /**
  * Conditional Logic Video
- *
+ * Screencast: Conditionals Examples
  */
 
 //Second commit with Child not being old enough to ride coaster.
@@ -75,7 +75,7 @@ var oldEnough = false;   //Set boolean as false.
 //if the child is old enough, print to the console.
 if(oldEnough){
     //code performed if condition is true
-    console.log ("You can ride the coaster!");
+    console.log ("Based on your age, you can ride the coaster!");
 
 //If child is not old enough, print this to the console.
 }else {
@@ -83,5 +83,27 @@ if(oldEnough){
     console.log ("You can\'t ride the coaster!  Sorry.")
 }
 
+/**
+ * Screencast: Relational Examples
+ * Comparing objects for decision making
+ *
+ */
+var kidHeight = 50;
+var minHeight = 48;
+
+//if the kid is over 48 inches in height.
+
+if(kidHeight > minHeight){
+    //code performed if condition is true
+    console.log ("You can definitely ride the coaster unless you received the message earlier that " +
+    "you aren\'t old enough.");  //printed statement with exception if above answer is no.
 
 
+}
+
+/**
+ * Screencast: Logical Operators
+ * Comparing pairs of True and False
+ */
+
+//
