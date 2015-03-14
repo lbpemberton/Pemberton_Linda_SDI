@@ -8,13 +8,21 @@
 //alert ("Javascript works!");  //Verified link between .js file and .html file worked!
 
 
+/**
+ * Basic Conditional Statement Video
+ */
+
 //Conditional statement / code.  If beach is sunny, we will go.
+//Added Conditional code within the code.
 
 
-sunny = false;      //Set boolean value of whether it is sunny or not.
-
+sunny = true;      //Set boolean value of whether it is sunny or not.
+temp = prompt("Please enter the temperature:"); //Use prompt for current temperature from user.
 
 if(sunny ) {        //If it is sunny, the below conditional statement will run and print.
+    if (temp > 70)
+
+
     goToTheBeach = ("We will go to the beach today!");  //Establish string for goToTheBeach.
 
     console.log (goToTheBeach); //Print answer to console if it is sunny enough to go to beach.
@@ -33,15 +41,3 @@ else {              //If is isn't sunny, the below conditional statement will ru
 
 
 
-
-
-//If temperature at beach is greater than 70 degrees, you will go to the beach.
-
-var temp = 65;  //Establish temperature to decide on beach or movies.
-
-if (temp > 70){
-
-    gotothebeach (true);  //Establish boolean for which statement is used.
-
-}
-console.log ("The temperature is " + temp + " degrees so we will not be going today!");
