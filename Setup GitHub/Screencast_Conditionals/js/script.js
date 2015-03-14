@@ -70,8 +70,8 @@ if (sunny) {            //If sunny the following will happen.
  *
  */
 
-//First commit with Child being old enough to ride coaster.
-var oldEnough = true;   //Set boolean as true.
+//Second commit with Child not being old enough to ride coaster.
+var oldEnough = false;   //Set boolean as false.
 //if the child is old enough, print to the console.
 if(oldEnough){
     //code performed if condition is true
