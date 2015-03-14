@@ -65,7 +65,23 @@ if (sunny) {            //If sunny the following will happen.
 
 
 }
+/**
+ * Conditional Logic Video
+ *
+ */
 
+//First commit with Child being old enough to ride coaster.
+var oldEnough = true;   //Set boolean as true.
+//if the child is old enough, print to the console.
+if(oldEnough){
+    //code performed if condition is true
+    console.log ("You can ride the coaster!");
+
+//If child is not old enough, print this to the console.
+}else {
+
+    console.log ("You can\'t ride the coaster!  Sorry.")
+}
 
 
 
