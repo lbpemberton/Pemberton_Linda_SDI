@@ -36,7 +36,35 @@ else {              //If is isn't sunny, the below conditional statement will ru
 
 
 }
+/**
+ * Nesting Conditional Statements
+ */
 
+var sunny = true;       //Set boolean for sunny or not sunny.
+var warmWater = true;   //Set boolean for whether water is warm or not.
+
+if (sunny) {            //If sunny the following will happen.
+    goToTheBeach = "We will go to the beach since it is sunny and " + temp + " degrees.";  //Print comment responding
+    // to the weather being sunny.
+
+    console.log (goToTheBeach);  //Print goToTheBeach new statement to include temperature.
+
+    if (warmWater) {    //If sunny and the water is warm, I can wear my bathing suit.
+
+        wearNewSuit = "I will wear my new suit!";   //Whether I will wear my new bathing suit according to water
+        //temperature.
+
+        console.log (wearNewSuit); //Print whether the new swim suit will be worn.
+
+    }
+}else {                 //Set conditions if weather isn't sunny.
+    goToTheMovies = goToTheMovies;          //Set statement if weather does not permit going to the beach.
+
+    console.log(goToTheMovies);             //Print statement that they will go to the movies since weather isn't
+    //responding for the beach.
+
+
+}
 
 
 
