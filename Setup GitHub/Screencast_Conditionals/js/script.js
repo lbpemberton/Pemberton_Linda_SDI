@@ -10,6 +10,7 @@
 
 /**
  * Basic Conditional Statement Video
+ * Videos - Conditional Logic Concepts & Logic Concepts
  */
 
 //Conditional statement / code.  If beach is sunny, we will go.
@@ -37,13 +38,13 @@ else {              //If is isn't sunny, the below conditional statement will ru
 
 }
 /**
- * Nesting Conditional Statements
+ * Videos:  Nesting Conditional Statements and Conditionals
  */
 
 var sunny = true;       //Set boolean for sunny or not sunny.
 var warmWater = true;   //Set boolean for whether water is warm or not.
 
-if (sunny) {            //If sunny the following will happen.
+if (sunny) {            //If sunny the following will happen using nesting.
     goToTheBeach = "We will go to the beach since it is sunny and " + temp + " degrees.";  //Print comment responding
     // to the weather being sunny.
 
@@ -67,11 +68,12 @@ if (sunny) {            //If sunny the following will happen.
 }
 /**
  * Conditional Logic Video
- * Screencast: Conditionals Examples
+ * Screencast: Conditionals Examples - Basic Conditional Statement
  */
 
 //Second commit with Child not being old enough to ride coaster.
 var oldEnough = false;   //Set boolean as false.
+
 //if the child is old enough, print to the console.
 if(oldEnough){
     //code performed if condition is true
@@ -80,20 +82,21 @@ if(oldEnough){
 //If child is not old enough, print this to the console.
 }else {
 
-    console.log ("You can\'t ride the coaster!  Sorry.")
+    console.log ("You aren't old enough.  You can\'t ride the coaster!  Sorry.")
 }
 
 /**
- * Screencast: Relational Examples
+ * Screencast: Relational Expressions and Condition with Expression
  * Comparing objects for decision making
  *
  */
-var kidHeight = 50;
+var kidHeight = 47;
 var minHeight = 48;
 
+//if the kid is over 48 inches in height print to the console "you can ride".
 //if the kid is over 48 inches in height.
 
-if(kidHeight > minHeight){
+if(kidHeight + 2 > minHeight){ //add two for sneaker height
     //code performed if condition is true
     console.log ("You can definitely ride the coaster unless you received the message earlier that " +
     "you aren\'t old enough.");  //printed statement with exception if above answer is no.
@@ -101,9 +104,26 @@ if(kidHeight > minHeight){
 
 }
 
+
+
 /**
- * Screencast: Logical Operators
- * Comparing pairs of True and False
+ * Screencast: If and else.
+ * Choosing between two blocks of code.
  */
 
-//
+//Using same conditional statement from above.
+
+var kidHeight = 48;
+var minHeight = 48;
+
+//if the child is old enough, print to the console "you can ride".
+//if the kid is over 48 inches in height.
+if(kidHeight > minHeight){
+    //code performed if condition is true
+    console.log("you can ride the coaster!");
+
+}
+if(kidHeight <= minHeight){
+    console.log ("Sorry kid, you've got some growing to do first!");
+    
+}
