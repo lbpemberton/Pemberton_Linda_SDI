@@ -144,6 +144,7 @@ if(kidHeight > minHeight) {
 /**
  * Screencast: Logical Operators
  * Example - Purchase of phone
+ * && Can only be used between relational expressions (booleans)
  */
 
 var budget = 300;   //number variable of budget is 300
@@ -157,4 +158,22 @@ if(iPhonePrice < budget && paycheck > 300){
 
 }else{
     consoe.log("No phone for you!!");
+}
+
+/**
+ Extension of above using the "or" operator
+ As long as one or the other is true, the result is true.
+
+ */
+
+var budget = 300;
+var iPhonePrice = 199.99;
+var wonLottery = true;
+
+//if the price of the phone is less our budget or we win the lottery
+if(iPhonePrice < budget || wonLottery === true){
+    console.log("We can buty the phone!");
+
+}else{
+    console.log("No phone for you!!");
 }
