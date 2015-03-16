@@ -140,8 +140,21 @@ if(kidHeight > minHeight) {
     console.log("Sorry kid, you've got some growing to do first.");
 
 }
+
 /**
- Screencast: else if video
- Choosing between three or more blocks of code.
+ * Screencast: Logical Operators
+ * Example - Purchase of phone
  */
 
+var budget = 300;   //number variable of budget is 300
+var iPhonePrice = 199.99
+var payCheck = 200;
+
+//if the price of the phone is less our budget AND if our paycheck is over 300
+if(iPhonePrice < budget && paycheck > 300){
+    console.log("We can buy the phone!");
+
+
+}else{
+    consoe.log("No phone for you!!");
+}
