@@ -161,19 +161,40 @@ if(iPhonePrice < budget && paycheck > 300){
 }
 
 /**
- Extension of above using the "or" operator
- As long as one or the other is true, the result is true.
+ * Logical Operators Continued
+ *Extension of above using the "or" operator
+ *As long as one or the other is true, the result is true.
 
  */
 
-var budget = 300;
-var iPhonePrice = 199.99;
-var wonLottery = true;
+var budget      = 300;      //set number variable for budget
+var iPhonePrice = 199.99;   //set number variable for cost of phone
+var wonLottery  = true;     //boolean value to answer if lottery was won
 
-//if the price of the phone is less our budget or we win the lottery
+//if the price of the phone is less than our budget OR we win the lottery
 if(iPhonePrice < budget || wonLottery === true){
     console.log("We can buty the phone!");
 
 }else{
-    console.log("No phone for you!!");
+    console.log("No phone for you!!");  //if above criteria isn't met.  Print result.
 }
+/**
+ * Ternaries
+ * Decision making on one line using"?"
+ */
+
+//placing in form of normal IF ELSE
+//var gpa = 48;
+
+//if the gpa is over the min 2.0 score, the student can graduate
+
+//if(gpa > 2.0){
+  //  console.log("You can graduate!");
+
+//}else{
+//    console.log("GPA is too low!);
+//}
+
+//Redo above with the "?" to replace IF ELSE
+(gpa > 2.0) ? console.log("You can graduate!") : console.log("GPA is too low!");
+
