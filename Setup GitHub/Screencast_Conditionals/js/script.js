@@ -238,5 +238,17 @@ book = (age < 10) ? "Green Eggs and Ham" : "The Time Machine";
 console.log(book);
 
 
+/**
+ * Assigning the Results of Comparisons
+ * p 51-67
+ */
+
+var age = prompt ("Enter age:", "");  //prompt for users age
+var isOverSixty = parseInt(age) > 60; //convert input to number
+
+console.log("Older than 60: " + isOverSixty); // using comparison for true or false
+
+
+
 
 
