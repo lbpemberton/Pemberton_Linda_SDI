@@ -19,7 +19,7 @@
 var sunny = true;      //Set boolean value of whether it is sunny or not.
 
 
-if(sunny ) {        //If it is sunny, the below conditional statement will run and print.
+if(sunny === true) {        //If it is sunny, the below conditional statement will run and print.
 
     goToTheBeach = ("We will go to the beach today!"); //Establish string for goToTheBeach.
     console.log(goToTheBeach);
