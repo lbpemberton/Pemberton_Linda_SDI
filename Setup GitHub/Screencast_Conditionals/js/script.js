@@ -14,22 +14,37 @@
  */
 
 //Conditional statement / code.  If beach is sunny, we will go.
-//Added Conditional code within the code.
+//Added Conditional code within the code. Add temperature variable.
 
+var sunny = true;      //Set boolean value of whether it is sunny or not.
 
-sunny = true;      //Set boolean value of whether it is sunny or not.
-temp = prompt("Please enter the temperature:"); //Use prompt for current temperature from user.
 
 if(sunny ) {        //If it is sunny, the below conditional statement will run and print.
-    if (temp > 70)
+
+    goToTheBeach = ("We will go to the beach today!"); //Establish string for goToTheBeach.
+    console.log(goToTheBeach);
+    var temp = prompt("Please enter the temperature:"); //Use prompt for current temperature from user.
 
 
-    goToTheBeach = ("We will go to the beach today!");  //Establish string for goToTheBeach.
 
-    console.log (goToTheBeach); //Print answer to console if it is sunny enough to go to beach.
+    if(temp > 70){
 
-}
-else {              //If is isn't sunny, the below conditional statement will run and pringt.
+        goToTheBeach = "We will go to the beach since it is sunny and " + parseFloat(temp) + " degrees.";  //Print comment
+        //responding to sunny and over 70 degrees.
+        console.log(goToTheBeach);
+
+    }else{
+        goToTheMovies = ("We will go to the movies today!");  //Establish string for goToTheMovies.
+        console.log (goToTheMovies);  //Print answer to console if it isn't sunny enough to go to the beach.
+
+
+
+    }
+
+
+
+
+}else {              //If it isn't sunny, the below conditional statement will run and print.
     goToTheMovies = ("We will go to the movies today!");  //Establish string for goToTheMovies.
 
 
@@ -44,13 +59,15 @@ else {              //If is isn't sunny, the below conditional statement will ru
 var sunny = true;       //Set boolean for sunny or not sunny.
 var warmWater = true;   //Set boolean for whether water is warm or not.
 
-if (sunny) {            //If sunny the following will happen using nesting.
+
+
+if (sunny && temp>70) {            //If sunny the following will happen using nesting.
     goToTheBeach = "We will go to the beach since it is sunny and " + temp + " degrees.";  //Print comment responding
     // to the weather being sunny.
 
-    console.log (goToTheBeach);  //Print goToTheBeach new statement to include temperature.
+    console.log (goToTheBeach);//Print goToTheBeach new statement to include temperature.
 
-    if (warmWater) {    //If sunny and the water is warm, I can wear my bathing suit.
+    if (warmWater){     //If sunny and the water is warm, I can wear my bathing suit.
 
         wearNewSuit = "I will wear my new suit!";   //Whether I will wear my new bathing suit according to water
         //temperature.
@@ -59,7 +76,8 @@ if (sunny) {            //If sunny the following will happen using nesting.
 
     }
 }else {                 //Set conditions if weather isn't sunny.
-    goToTheMovies = goToTheMovies;          //Set statement if weather does not permit going to the beach.
+    goToTheMovies = ("We will go to the movies today!");
+            //Set statement if weather does not permit going to the beach.
 
     console.log(goToTheMovies);             //Print statement that they will go to the movies since weather isn't
     //responding for the beach.
@@ -152,12 +170,12 @@ var iPhonePrice = 199.99
 var payCheck = 200;
 
 //if the price of the phone is less our budget AND if our paycheck is over 300
-if(iPhonePrice < budget && paycheck > 300){
+if(iPhonePrice < budget && payCheck > 300){
     console.log("We can buy the phone!");
 
 
 }else{
-    consoe.log("No phone for you!!");
+    console.log("No phone for you!!");
 }
 
 /**
@@ -173,7 +191,7 @@ var wonLottery  = true;     //boolean value to answer if lottery was won
 
 //if the price of the phone is less than our budget OR we win the lottery
 if(iPhonePrice < budget || wonLottery === true){
-    console.log("We can buty the phone!");
+    console.log("We can buy the phone!");
 
 }else{
     console.log("No phone for you!!");  //if above criteria isn't met.  Print result.
@@ -184,7 +202,7 @@ if(iPhonePrice < budget || wonLottery === true){
  */
 
 //placing in form of normal IF ELSE
-//var gpa = 48;
+var gpa = 48;
 
 //if the gpa is over the min 2.0 score, the student can graduate
 
@@ -197,4 +215,28 @@ if(iPhonePrice < budget || wonLottery === true){
 
 //Redo above with the "?" to replace IF ELSE
 (gpa > 2.0) ? console.log("You can graduate!") : console.log("GPA is too low!");
+
+
+// second example of Ternary Operator. If child is under 10, they get Green Eggs and Ham,
+//otherwise, they get The Time Machine.
+
+var age = 11;
+var book;
+
+//normal IF ELSE would be written:
+//if(age <10){
+//  book = "Green Eggs and Ham";
+//}else{
+//  book = "The Time Machine";
+//}
+//console.log(book);
+
+
+//Write with Ternary Operators
+
+book = (age < 10) ? "Green Eggs and Ham" : "The Time Machine";
+console.log(book);
+
+
+
 
