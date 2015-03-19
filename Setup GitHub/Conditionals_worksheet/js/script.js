@@ -55,6 +55,34 @@ if (unit === "F"){  //choose equation to use if unit is F
     console.log("The temperature is " + celsiusToFahrenheit + " degrees Fahrenheit.")
 
 }
-/*
-
+/**
+ * Group 2: Multiple Results
+ * Grade Letter Calculator
+ * A student earns a number grade at the conclusion of a course at Full Sail.  Determine the appropriate letter
+ * grade for that number using conditional statements.
  */
+var grade = prompt("Enter your grade as a whole number:"); //Prompt for grade to be used.
+var alphaGrade;  //Set variable for Alphabetical grade.
+
+//List the grade scale and what percent qualifies for each Alphabetical grade.
+
+if (grade >= 95){
+    alphaGrade = "A+";
+}else if (grade >= 90 && grade <= 94){
+    alphaGrade = "A";
+}else if (grade >= 85 && grade <= 89){
+    alphaGrade = "B+";
+}else if (grade >= 80 && grade <= 84){
+    alphaGrade = "B";
+}else if (grade >= 76 && grade <= 79){
+    alphaGrade = "C+";
+}else if (grade >= 73 && grade <= 75){
+    alphaGrade = "C";
+}else if (grade >= 70 && grade <= 72){
+    alphaGrade = "D";
+}else if (grade >= 0 && grade <= 69){
+    alphaGrade = "F";
+}
+//Print the print log to match grade.
+console.log("You have a " +grade+ ", which means you have earned a " +alphaGrade+ " in the class!");
+
