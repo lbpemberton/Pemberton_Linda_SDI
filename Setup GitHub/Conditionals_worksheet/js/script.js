@@ -86,3 +86,20 @@ if (grade >= 95){
 //Print the print log to match grade.
 console.log("You have a " +grade+ ", which means you have earned a " +alphaGrade+ " in the class!");
 
+/**
+ Group 3: Multiple Conditions
+ Movie Ticket Price
+ */
+
+
+//Using Conditional logic - Ternary Operators
+var movieTime   = 6;    //input variable for movie time
+var age         = 55;   //input variable for ticket holder's age
+var price;              //var name for conclusion.
+
+//Using Ternary operator to determine ticket price of $7 or $12:
+
+price = ((age < 10) || (movieTime <= 5) || (age >= 55)) ? "$7.00" : "$12.00";
+//Print result to log:
+console.log("The ticket price is " +price+ ".");
+
