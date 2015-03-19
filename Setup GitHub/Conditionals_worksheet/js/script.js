@@ -16,8 +16,12 @@
 //var unit = "F";     //set unit to use for temperature at F for Fahrenheit
 //Data set to test 100C is 212F
 
-var temp = 100;         //set temp to use at 100 degrees
-var unit = "C";         //set unit to use for temperature at C for Celsius
+//var temp = 100;         //set temp to use at 100 degrees
+//var unit = "C";         //set unit to use for temperature at C for Celsius
+
+//Data set to test if 90F is 32.22C
+var temp = 90;          //set temp to use at 90 degrees
+var unit = "F";         //set unit to use for temperature at F for Fahrenheit
 
 
 if (unit === "F"){  //choose equation to use if unit is F
