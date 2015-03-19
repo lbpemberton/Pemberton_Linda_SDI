@@ -1,0 +1,1 @@
+alert("Confirmed js file is connected!");
