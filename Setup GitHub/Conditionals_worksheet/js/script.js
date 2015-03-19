@@ -8,6 +8,20 @@
  Conditionals Worksheet
  */
 
+
+/**Add Original example:  Stuff your face I.
+ * To get in the heavyweight division of the Strawberry Festival's pie eating contest you must weigh 250 lbs
+ * or more.  Determine whether an entrant qualifies based on his weight.
+ */
+var weight = prompt("How much does entrant weigh in pounds?");   //using a prompted number from user.
+
+if (weight >= 250){ //If the entrants weight is 250 lbs or more, print the following:
+    console.log("The competitor qualifies for the heavyweight division.");
+}else{              //Given the weight is less than 250 lbs., the following should print:
+    console.log("The competitor needs to gain some weight!");
+}
+
+
 //Group 1:  Expressions with Conditionals
 
 //Data set to test is 32F is 0C
@@ -40,5 +54,7 @@ if (unit === "F"){  //choose equation to use if unit is F
 
     console.log("The temperature is " + celsiusToFahrenheit + " degrees Fahrenheit.")
 
-
 }
+/*
+
+ */
