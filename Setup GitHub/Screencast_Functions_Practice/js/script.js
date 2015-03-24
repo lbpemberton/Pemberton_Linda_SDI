@@ -7,19 +7,23 @@
  Functions Screencast Practice
  */
 
-//Functions - Function Invokation
+//Functions - Variable Scope
 function outptMsg(){
     console.log("Hello World");
 }
+//Understanding where the variables go is very important.  This variable is outside
+//of the function:
+
+var width       =   5;
 
 function calcArea(){
     var width   =   20;
     var height  =   30;
     var area    =   width * height;
-    console.log(area);
+    //console.log(area);
 }
-//You can print function name as many times as needed and it will continue to print
 //This is considered invoking your function:
-calcArea();
-calcArea();
-calcArea();
+calcArea();  //This will not print anything because console.log is commented out.
+
+console.log(width);  //This is going to print variable outside of function because
+//we are not invoking the function.
