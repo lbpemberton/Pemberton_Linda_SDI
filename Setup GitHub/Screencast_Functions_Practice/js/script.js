@@ -9,7 +9,10 @@
 
 //Functions - Returning Values
 
-var total = calcArea(30,20);            //Using these arguments to send to parameters below:
+//Functions that are "returning" need to be assigned a variable.
+
+//Using the var total  = function calArea:
+var total = calcArea(30,20);    //Using these arguments to send to parameters below:
 function calcArea(w, h){    //Parameters so you know what values to use.
     var area = w * h;
     return area; //function spitting information out. Happens where function is invoked
