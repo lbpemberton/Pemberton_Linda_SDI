@@ -7,7 +7,7 @@
  Functions Screencast Practice
  */
 
-//Functions - A Basic Function
+//Functions - Function Invokation
 function outptMsg(){
     console.log("Hello World");
 }
@@ -18,3 +18,8 @@ function calcArea(){
     var area    =   width * height;
     console.log(area);
 }
+//You can print function name as many times as needed and it will continue to print
+//This is considered invoking your function:
+calcArea();
+calcArea();
+calcArea();
