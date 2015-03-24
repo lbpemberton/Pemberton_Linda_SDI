@@ -11,12 +11,11 @@
 
 
 
-function dogYears(){            //Arguments needed. Information to send to the function.
-    var age         =   4;
-    var dogYears    =   age * 7; //Code ran by the function. Parameters.
+function dogYears(age){             //Arguments input. Information to send to the function.
+    var dogYears    =   age * 7;    //Code ran by the function. Parameters.
 
     console.log("Sparky is " + dogYears + " years old.");
 }
-dogYears(); //Print above given parameters and arguments.
-dogYears();
+dogYears(4); //Print above with the argument entered. 
+dogYears(5);
 
