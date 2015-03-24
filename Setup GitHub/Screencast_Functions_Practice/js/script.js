@@ -7,20 +7,19 @@
  Functions Screencast Practice
  */
 
-//Functions - Procedures vs. Functions
+//Functions - Anonymous Functions
 
-//This is a function:
-function calcAreaF(width, height){    //Parameters so you know what values to use.
-    var area = width * height;
-    return area; //function spitting information out. Happens where function is invoked
-                 //on line 12. Variable needs to be set up in order to see it in action.
-}
+var calcArea = function(width, height){  //defining
 
-//This is a procedure:
-function calcAreaP(width, height){
+    //code the function runs
     var area = width * height;
-    console.log(area); //NO RETURN
+    return area;
+
+
 }
+var a = calcArea(20,30);  //invoking
+
+console.log(a);
 
 
 
