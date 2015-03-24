@@ -7,19 +7,20 @@
  Functions Screencast Practice
  */
 
-//Functions - Returning Values
+//Functions - Procedures vs. Functions
 
-//Functions that are "returning" need to be assigned a variable.
-
-//Using the var total  = function calArea:
-var total = calcArea(30,20);    //Using these arguments to send to parameters below:
-function calcArea(w, h){    //Parameters so you know what values to use.
-    var area = w * h;
+//This is a function:
+function calcAreaF(width, height){    //Parameters so you know what values to use.
+    var area = width * height;
     return area; //function spitting information out. Happens where function is invoked
                  //on line 12. Variable needs to be set up in order to see it in action.
 }
 
-console.log(total);     //total = whatever is returned from the calcArea function.
+//This is a procedure:
+function calcAreaP(width, height){
+    var area = width * height;
+    console.log(area); //NO RETURN
+}
 
 
 
