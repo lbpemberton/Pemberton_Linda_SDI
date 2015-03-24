@@ -7,15 +7,16 @@
  Functions Screencast Practice
  */
 
-//Functions - Arguments and Parameters
+//Functions - Returning Values
 
-
-
-function dogYears(age){             //Arguments input. Information to send to the function.
-    var dogYears    =   age * 7;    //Code ran by the function. Parameters.
-
-    console.log("Sparky is " + dogYears + " years old.");
+var total = calcArea(30,20);            //Using these arguments to send to parameters below:
+function calcArea(w, h){    //Parameters so you know what values to use.
+    var area = w * h;
+    return area; //function spitting information out. Happens where function is invoked
+                 //on line 12. Variable needs to be set up in order to see it in action.
 }
-dogYears(4); //Print above with the argument entered. 
-dogYears(5);
+
+console.log(total);     //total = whatever is returned from the calcArea function.
+
+
 
