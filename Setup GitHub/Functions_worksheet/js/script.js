@@ -13,17 +13,17 @@
 
 //  Basic function:
 
-function victimsWeight(){   //Assign function name.
+function victimsWeight(){   //Assign function name. Arguments needed.
 
     var stings      = 8.666666667;      //Assign total stings per pound to kill victim.
     var weight      = 150;              //Assign victims weight .
-    var calcStings  = stings * weight;  //Variable of calculation for function outcome.
+    var calcStings  = stings * weight;  //Parameters ran for function outcome.
 
     console.log("It takes " +calcStings+ " bee stings to kill this animal."); //Print outcome as part of function.
 
 }
 
-victimsWeight();                        //Invoking function above.
+victimsWeight();                        //Invoking function above. Print above given parameters and arguments.
 
 
 
