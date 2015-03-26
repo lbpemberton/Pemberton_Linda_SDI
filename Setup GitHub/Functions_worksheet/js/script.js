@@ -7,25 +7,25 @@
  March 24, 2015
  */
 
-//CIRCUMFERENCE using Anonymous Functions
+//CIRCUMFERENCE using Basic Functions
 
 //Calculate the circumference of a circle. - Functions, Arguments, Parameters, and Returning Values.
 
 
-//Using Anonymous Function:
-var circleTotal = function(radius){        //Using this argument to send to parameters below:
+//Using Basic Function:
+function circleTotal(){        //  Name function.
 
 
     //Parameter to be used for calculation.  Code the function runs:
-    var circumference = 2 * radius * Math.PI;   //Variable for calculation needed.
+    var circumference   = 2 * radius * Math.PI;   //Variable for calculation parameters.
+    var radius          = 8;                      //Parameter for radius set at 8.
+    console.log("The circumference of the circle is " + circumference + ".");
 
 
 
-    return circumference;                       //Return for variable set as circleTotal.
 }
-var circle              = circleTotal(8);       //Invoking into circumference.
-console.log("The circumference of the circle is " + circle + ".");   //Console.log prints the return from
-// c
+
+circleTotal();          //Print function name and print the invocation.
 
 
 
