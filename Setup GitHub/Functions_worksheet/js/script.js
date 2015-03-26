@@ -8,22 +8,23 @@
  */
 
 //  STUNG!
+    
 
 //  Calculate the amount of bee stings to kill an animal. - Functions, Arguments, Parameters, and Returning Values.
 
-//  Basic function:
+//  Returning Values
 
-function victimsWeight(){   //Assign function name. Arguments needed.
+//Using the var totalStings = function victimsWeight
+var totalStings     = victimsWeight(150);   //Using these arguments to send to parameters below:
 
-    var stings      = 8.666666667;      //Assign total stings per pound to kill victim.
-    var weight      = 150;              //Assign victims weight .
-    var calcStings  = stings * weight;  //Parameters ran for function outcome.
+function victimsWeight(weight){             //Assign function name and assign parameter.
 
-    console.log("It takes " +calcStings+ " bee stings to kill this animal."); //Print outcome as part of function.
+    var calcStings  = 8.666666667 * weight;  //Parameters ran for function outcome.
 
+    return calcStings;  //Function is invoked on line 17.  Variable is setup as totalStings.
 }
 
-victimsWeight();                        //Invoking function above. Print above given parameters and arguments.
+console.log("It takes " + totalStings + " bee stings to kill this animal."); //Print return from function.                      //Invoking function above. Print above given parameters and arguments.
 
 
 
