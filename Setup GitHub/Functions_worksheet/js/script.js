@@ -7,26 +7,24 @@
  March 24, 2015
  */
 
-//Example: Calculate the area of a rectangle given the width and height of the rectangle.
+//CIRCUMFERENCE
 
-//Calculate the Area of a Rectangle - Functions, Arguments, Parameters, and Returning Values.
+//Calculate the circumference of a circle. - Functions, Arguments, Parameters, and Returning Values.
 
-var total = calculateArea(5,6);         //Assigning arguments to send to parameters below.
+var circleTotal       = circleCircum(9);        //Using this argument to send to parameters below:
 
-function calculateArea(width, height){  //Width = 5 and height = 6 (Parameter 1 and 2)
+function circleCircum(radius) {                 //Parameter to be used for calculation.
+    var circumference = 2 * radius * Math.PI;   //Variable for calculation needed.
 
 
-    var area    = width * height;       //Assign variable area to calculate width x height.
-    return area;                        //Function spitting information out.  Function is invoked on line 14.
 
+    return circumference;                       //Return for variable set as circleTotal.
 }
 
-console.log("The area of the rectangle is " +total);//Print the return area of assigned variable "total".
+console.log("The circumference of the circle is " + circleTotal + ".");   //Console.log prints the return from
+// circleCircum function.
 
 
 
-
-//function calculateArea(w, h);
- //   return w * h;
 
 
