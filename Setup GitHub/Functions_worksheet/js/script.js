@@ -17,8 +17,9 @@ function circleTotal(){        //  Name function.
 
 
     //Parameter to be used for calculation.  Code the function runs:
-    var circumference   = 2 * radius * Math.PI;   //Variable for calculation parameters.
     var radius          = 8;                      //Parameter for radius set at 8.
+
+    var circumference   = 2 * radius * Math.PI;   //Variable for calculation parameters.
     console.log("The circumference of the circle is " + circumference + ".");
 
 
