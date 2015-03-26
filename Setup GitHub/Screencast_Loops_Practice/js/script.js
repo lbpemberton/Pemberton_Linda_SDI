@@ -26,4 +26,11 @@ do{     //run this code:
     c--;
 
 }       //while this condition is true:
-while(c > 10);
+while(c > 0);
+
+
+    //FOR LOOP :  Combination of loops all on one line.
+for (var i = 10; i > 0; i--){
+    console.log(i + " kegs on the wall.")
+}
+
