@@ -7,26 +7,26 @@
  March 24, 2015
  */
 
-//CIRCUMFERENCE using Basic Functions
+//  STUNG!
 
-//Calculate the circumference of a circle. - Functions, Arguments, Parameters, and Returning Values.
+//  Calculate the amount of bee stings to kill an animal. - Functions, Arguments, Parameters, and Returning Values.
 
+//  Basic function:
 
-//Using Basic Function:
-function circleTotal(){        //  Name function.
+function victimsWeight(){   //Assign function name.
 
+    var stings      = 8.666666667;      //Assign total stings per pound to kill victim.
+    var weight      = 150;              //Assign victims weight .
+    var calcStings  = stings * weight;  //Variable of calculation for function outcome.
 
-    //Parameter to be used for calculation.  Code the function runs:
-    var radius          = 8;                      //Parameter for radius set at 8.
-
-    var circumference   = 2 * radius * Math.PI;   //Variable for calculation parameters.
-    console.log("The circumference of the circle is " + circumference + ".");
-
-
+    console.log("It takes " +calcStings+ " bee stings to kill this animal."); //Print outcome as part of function.
 
 }
 
-circleTotal();          //Print function name and print the invocation.
+victimsWeight();                        //Invoking function above.
+
+
+
 
 
 
