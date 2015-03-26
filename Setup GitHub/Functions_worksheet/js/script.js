@@ -9,21 +9,20 @@
 
 //Example: Calculate the area of a rectangle given the width and height of the rectangle.
 
-//Calculate the Area of a Rectangle - Functions, Arguments, Parameters, and Returning Values
+//Calculate the Area of a Rectangle - Functions, Arguments, Parameters, and Returning Values.
 
-function calculateArea(){           //Function name assignment.
-    //
-    var width = 5;                  //Assign variable width of 5.
-    var height = 6;                 //Assign variable height of 6.
-    var area = width * height;      //Assign variable area to calculate width x height.
-    console.log("The Area of the Rectangle is " + area);
+function calculateArea(width, height){  //Width = 5 and height = 6 (Parameter 1 and 2)
+
+
+    var area = width * height;          //Assign variable area to calculate width x height.
+    console.log("The Area of the Rectangle is " + area);  //Result to print from function.
 }
 
 //This is considered invoking your function:
-calculateArea(); //Print console.log from function to invoke.  
+calculateArea(5,6); //Print console.log from function to invoke. Assigns argument 1 and 2 into function.
 
 
-//calculateArea();
+
 
 
 //function calculateArea(w, h);
