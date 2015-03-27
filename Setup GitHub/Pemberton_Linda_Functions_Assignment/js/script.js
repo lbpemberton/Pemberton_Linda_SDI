@@ -69,7 +69,28 @@ function ageRequirement(yearsOld){
     return yearsOld;                        //return yearsOld into ageRequirement Function
 }
 
+function randomLotto(picks) {   //Set arguments
 
+    var lottoArray  = [];
+
+    //set up Math.random() * (max - min) + min
+
+
+    for (var lotto  = 0; lotto < picks; lotto++){ //Using for to arrive at random numbers
+        //set parameters for numbers to be used for random Lottery numbers
+        var randomLottoNumbers = Math.round(Math.random() * (53 - 1) + 1);
+        //assign lottoArray to parameters
+        lottoArray[lotto] = randomLottoNumbers;
+
+
+
+        }
+    return lottoArray;      //Assign lottoArray to function
+
+
+
+
+}
 
 
 
@@ -85,7 +106,7 @@ function ageRequirement(yearsOld){
 //test to verify function is working properly:
 
 firstName = nameValidation(firstName); //assign nameValidation function to firstName variable
-console.log(firstName);
+//console.log(firstName);
 
 
 
@@ -93,8 +114,12 @@ console.log(firstName);
 
 //test to verify ageRequirement function is working properly:
 age         = ageRequirement(age);  //assign ageRequirement function to age variable
-console.log(age);
+//console.log(age);
 
+
+//test to verify randomLotto function is working properly
+myLotteryPick = randomLotto(6);
+//console.log(myLotteryPick);
 
 //Boolean to be placed in code regarding age and whether player is old enough to play the Florida Lottery:
 if (age >= 18){                     //Parameter set for boolean true
@@ -107,3 +132,11 @@ if (age >= 18){                     //Parameter set for boolean true
     "Florida Lottery.  Sorry.");
 
 }
+
+console.log("Welcome " + firstName + " to the Florida Lottery random drawing for 6 sets of numbers. \nYou say you are "
++ age + " years old. If this information is incorrect, hit refresh.");
+
+console.log("Here is your first set of random numbers: " + myLotteryPick );
+
+
+

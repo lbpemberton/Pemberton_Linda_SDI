@@ -27,8 +27,8 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Setup GitHub/Pemberton_Linda_Functions_Assignment/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2733564" vertical-offset="1132" max-vertical-offset="1710">
-              <caret line="86" column="93" selection-start-line="86" selection-start-column="93" selection-end-line="86" selection-end-column="93" />
+            <state vertical-scroll-proportion="0.7525951" vertical-offset="1635" max-vertical-offset="2220">
+              <caret line="138" column="75" selection-start-line="138" selection-start-column="75" selection-end-line="138" selection-end-column="75" />
               <folding />
             </state>
           </provider>
@@ -85,7 +85,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-51" />
     <option name="y" value="165" />
-    <option name="width" value="978" />
+    <option name="width" value="820" />
     <option name="height" value="724" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -269,7 +269,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-51" y="165" width="978" height="724" extended-state="0" />
+    <frame x="-51" y="165" width="820" height="724" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -277,10 +277,10 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.060606062" sideWeight="0.4055944" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.07259074" sideWeight="0.4055944" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0815047" sideWeight="0.5944056" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.09762203" sideWeight="0.5944056" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -668,8 +668,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Setup GitHub/Pemberton_Linda_Functions_Assignment/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2733564" vertical-offset="1132" max-vertical-offset="1710">
-          <caret line="86" column="93" selection-start-line="86" selection-start-column="93" selection-end-line="86" selection-end-column="93" />
+        <state vertical-scroll-proportion="0.7525951" vertical-offset="1635" max-vertical-offset="2220">
+          <caret line="138" column="75" selection-start-line="138" selection-start-column="75" selection-end-line="138" selection-end-column="75" />
           <folding />
         </state>
       </provider>
