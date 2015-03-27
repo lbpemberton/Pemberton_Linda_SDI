@@ -75,17 +75,24 @@ function ageRequirement(yearsOld){
 
 
 
+
+
 //  main code
 
 //console.log("Welcome " + firstName + ", have fun drawing your numbers!"); //test to verify variable is printing
 //console.log("Your age at the time of the drawing will be " + age + ".");  //test to verify variable age is printing
 
 //test to verify function is working properly:
-firstName   = nameValidation(firstName);
+
+firstName = nameValidation(firstName); //assign nameValidation function to firstName variable
 console.log(firstName);
 
+
+
+
+
 //test to verify ageRequirement function is working properly:
-age         = ageRequirement(age);
+age         = ageRequirement(age);  //assign ageRequirement function to age variable
 console.log(age);
 
 
