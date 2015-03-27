@@ -73,6 +73,8 @@ function ageRequirement(yearsOld){
 
 
 
+
+
 //  main code
 
 //console.log("Welcome " + firstName + ", have fun drawing your numbers!"); //test to verify variable is printing
@@ -85,3 +87,16 @@ console.log(firstName);
 //test to verify ageRequirement function is working properly:
 age         = ageRequirement(age);
 console.log(age);
+
+
+//Boolean to be placed in code regarding age and whether player is old enough to play the Florida Lottery:
+if (age >= 18){                     //Parameter set for boolean true
+
+    console.log ("You are " + age + " years old, which means you are old enough to play!");
+
+}else{                              //Parameter set for boolean false
+
+    console.log ("You are only " + age + " years old.  This means you are not \nold enough to play in the " +
+    "Florida Lottery.  Sorry.");
+
+}
